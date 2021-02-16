@@ -1,6 +1,8 @@
-A minimal understanding of the UNIX manual system is a prerequisite of fully appreciating the following "joke".
+A minimal understanding of the UNIX manual system is a prerequisite of
+fully appreciating the following "joke".
 
-The organisation of the standard UNIX manual can be described by the following guide.
+The organisation of the standard UNIX manual can be described by the
+following guide.
 
 SECTION NUMBER, SECTION DESCRIPTION
 1, General commands (tools and utilities).
@@ -13,7 +15,12 @@ SECTION NUMBER, SECTION DESCRIPTION
 8, System maintenance and operation commands.
 9, Kernel internals.
 
-However, VARIK thought that re-organising the manual such that the sections of the manual are numbered such that for all $n$ in $\left\{a \in \mathbb{N} : 1 \leq a \leq 9\right}$, Enneagram type $n$ is fond of manual page section $n$ might be somewhat amusing.  As such, VARIK has created a new manual page layout which is best described by the following guide.
+However, VARIK thought that re-organising the manual such that the
+sections of the manual are numbered such that for all $n$ in
+$\left\{a \in \mathbb{N} : 1 \leq a \leq 9\right}$, Enneagram type $n$ is
+fond of manual page section $n$ might be somewhat amusing.  As such,
+VARIK has created a new manual page layout which is best described by the
+following guide.
 
 SECTION NUMBER, SECTION DESCRIPTION
 1, Library functions.
@@ -26,20 +33,51 @@ SECTION NUMBER, SECTION DESCRIPTION
 8, System maintenance and operation commands.
 9, Kernel internals.
 
-The "library functions" section was assigned to type one (1) because for all programs, a program uses bad library functions only if this program is likely unstable, and type one (1) strives to be perfect.
+The "library functions" section was assigned to type one (1) because for
+all programs, a program uses bad library functions only if this program is
+likely unstable, and type one (1) strives to be perfect.
 
-The "system calls and error numbers" section was assigned to type two (2) because these error numbers exist partially to facilitate the debugging process, and type two (2) wishes to aid other men.
+The "system calls and error numbers" section was assigned to type two (2)
+because these error numbers exist partially to facilitate the debugging
+process, and type two (2) wishes to aid other men.
 
-The typical end user most often interfaces with the commands which fall under "general commands (tools and utilities)"; these programs' tendency to directly interact with the end user reflects the relatively extroverted nature of type three (3).  Therefore, the "general commands" section was assigned to type three (3).  However, as VARIK is best classified under type three (3), some bias may have been involved in this assignment.
+The typical end user most often interfaces with the commands which fall
+under "general commands (tools and utilities)"; these programs' tendency
+to directly interact with the end user reflects the relatively
+extroverted nature of type three (3).  Therefore, the "general commands"
+section was assigned to type three (3).  However, as VARIK is best
+classified under type three (3), some bias may have been involved in this
+assignment.
 
-File formats are typically designed to be unique, and type four (4) wishes to be unique.  Therefore, the "file formats" section was assigned to type four (4).  VARIK also finds that file formats, like type four (4), can be obnoxiously individualistic.
+File formats are typically designed to be unique, and type four (4)
+wishes to be unique.  Therefore, the "file formats" section was assigned
+to type four (4).  VARIK also finds that file formats, like type four
+(4), can be obnoxiously individualistic.
 
-Type five (5) is known to collect information without necessarily using this information, just as the "miscellaneous information" section of the manual typically contains information which is not directly implemented within a system.  Therefore, the "miscellaneous information" section was assigned to type five (5).
+Type five (5) is known to collect information without necessarily using
+this information, just as the "miscellaneous information" section of the
+manual typically contains information which is not directly implemented
+within a system.  Therefore, the "miscellaneous information" section was
+assigned to type five (5).
 
-The desire of type six (6) is often considered to be security.  The security of data can be ensured by writing data to storage devices, which require drivers, which are provided by the things which are described within the "device drivers" section.  Therefore, the "device drivers" section was assigned to type six (6).
+The desire of type six (6) is often considered to be security.  The
+security of data can be ensured by writing data to storage devices, which
+require drivers, which are provided by the things which are described
+within the "device drivers" section.  Therefore, the "device drivers"
+section was assigned to type six (6).
 
-Type seven (7) only does useless bullshit, e.g., playing computer games.  The "games" section contains programs which are designed to be fun for the sake of being fun, e.g., video games.  Therefore, the "games" section was assigned to type seven (7).
+Type seven (7) only does useless bullshit, e.g., playing computer games.
+The "games" section contains programs which are designed to be fun for
+the sake of being fun, e.g., video games.  Therefore, the "games" section
+was assigned to type seven (7).
 
-Type eight (8) is stereotyped as being angry and good in managerial positions, and the tools which fall under the "system maintenance and operation commands" section are used to manage UNIX systems.  Therefore, the "system maintenance and operation commands" section was assigned to type eight (8).
+Type eight (8) is stereotyped as being angry and good in managerial
+positions, and the tools which fall under the "system maintenance and
+operation commands" section are used to manage UNIX systems.  Therefore,
+the "system maintenance and operation commands" section was assigned to
+type eight (8).
 
-The "kernel internals" section was issued to type nine (9); although VARIK cannot directly justify this choice, VARIK found that for all other types, the assignment of this section to a type could be fairly easily disproven.
+The "kernel internals" section was issued to type nine (9); although
+VARIK cannot directly justify this choice, VARIK found that for all other
+types, the assignment of this section to a type could be fairly easily
+disproven.
