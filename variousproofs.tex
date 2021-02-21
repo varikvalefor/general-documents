@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\begin{document}
+\newtheorem{thm}{Theorem}
+\begin{thm}
+	$\infty \notin \mathbb{C}$.
+\end{thm}
+\begin{proof}
+	\[
+		\nexists a \in \mathbb{C} : a + 1 = a.
+	\]
+	\[
+		\infty + 1 = \infty.
+	\]
+	\[
+		\therefore \infty \notin \mathbb{C}.\qedhere
+	\]
+\end{proof}
+\begin{thm}
+	$\forall n \in \mathbb{N}, \ n > 3 \implies \prod_{i=1}^n \mathbb{P}_i \equiv 0 \pmod {10}$.
+\end{thm}
+\begin{thm}
+	$\forall \left\{a,b,c\right\}, \ 
+	\log_c\left(a^b\right) = b \cdot \frac{\log(a)}{\log(c)}$.
+\end{thm}
+\begin{proof}
+	\[
+		\forall \left\{a,b,c\right\}, \
+		\log_c\left(a^b\right) =
+		b \cdot \log_c\left(a\right).
+	\]
+	\[
+		\forall \left\{a,c\right\}, \ 
+		\log_c\left(a\right) =
+		\frac{\log\left(a\right)}{\log\left(c\right)}.
+	\]
+	\[
+		\therefore \forall \left\{a,b,c\right\}, \ 
+		\log_c\left(a^b\right) =
+		b \cdot \frac{\log(a)}{\log(c)}.
+	\]
+\end{proof}
+\end{document}
