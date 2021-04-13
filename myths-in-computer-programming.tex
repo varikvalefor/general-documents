@@ -48,7 +48,7 @@
 				\[
 					\forall \left\{a,b,c\right\},\ 
 					\mathit{ZZ}(a) \land \mathit{ZZ}(b) \land
-					c \in a \land c \notin b \iff c \in a - b.
+					c \in a \land c \notin b \implies c \in a - b.
 				\]
 				\[
 					\mathit{ZZ}\big(p(h)\big).
@@ -110,7 +110,7 @@
 			\end{proof}
 	\section{(U) Programs}
 		\subsection{(U) 322}\label{subsection:p322}
-			\begin{lstlisting}[language=Haskell]
+			\begin{lstlisting}
 import System.Environment;
 
 main :: IO ();
@@ -118,7 +118,7 @@ main = getEnvironment >>= putStrLn . thePWD
   where thePWD = (!!0) . filter ((== "PWD") . fst);
 			\end{lstlisting}
 		\subsection{(U) 2636}\label{subsection:p2636}
-			\begin{lstlisting}[language=C]
+			\begin{lstlisting}
 #include <stdio.h>
 int main()
 {
