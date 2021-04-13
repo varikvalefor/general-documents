@@ -19,9 +19,8 @@
 		For all classes $G$, for all objects $x$, $G(x)$ iff $x$ belongs to
 		$G$.
 	\section{(U) Cross-Platform Stuff}
-		\subsection{(U) Haskell}
 			Let $C$ denote the set of all cross-platform computer programs.
-
+		\subsection{(U) Haskell}
 			Let $h$ denote the Haskell programming language.
 
 			$G$ denotes program 322, as contained in \cref{subsection:p322}.
@@ -51,6 +50,29 @@
 					\therefore p(h) -  \neq \left\{\right\}.
 				\]
 			\end{proof}
+		\subsection{(U) C}
+			Let $h$ denote the C programming language.
+
+			$G$ denotes program 2636, as contained in \cref{subsection:p2636}.
+			\begin{thm}
+				$p(h) \cap C \neq \left\{\right\}$.
+			\end{thm}
+			\begin{proof}
+				\[
+					\forall x,\ 
+					\mathit{ZZ}(x) \implies 
+					\left(x \neq \left\{\right\} \iff \exists y \in x\right).
+				\]
+				\[
+					\mathit{ZZ}\big(p(h) \cap C\big).
+				\]
+				\[
+					G \in p(h) \cap C.
+				\]
+				\[
+					\therefore p(h) \cap C \neq \left\{\right\}.\qedhere
+				\]
+			\end{proof}
 	\section{(U) Programs}
 		\subsection{(U) 322}\label{subsection:p322}
 			\begin{lstlisting}
@@ -59,5 +81,14 @@ import System.Environment;
 main :: IO ();
 main = getEnvironment >>= putStrLn . thePWD
   where thePWD = (!!0) . filter ((== "PWD") . fst);
+			\end{lstlisting}
+		\subsection{(U) 2636}\label{subsection:p2636}
+			\begin{lstlisting}
+#include <stdio.h>
+int main()
+{
+	printf("Hello, world.\n");
+	return 0;
+}
 			\end{lstlisting}
 \end{document}
