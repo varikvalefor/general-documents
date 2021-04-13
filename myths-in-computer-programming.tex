@@ -110,7 +110,7 @@
 			\end{proof}
 	\section{(U) Programs}
 		\subsection{(U) 322}\label{subsection:p322}
-			\begin{lstlisting}
+			\begin{lstlisting}[language=Haskell]
 import System.Environment;
 
 main :: IO ();
@@ -118,7 +118,7 @@ main = getEnvironment >>= putStrLn . thePWD
   where thePWD = (!!0) . filter ((== "PWD") . fst);
 			\end{lstlisting}
 		\subsection{(U) 2636}\label{subsection:p2636}
-			\begin{lstlisting}
+			\begin{lstlisting}[language=C]
 #include <stdio.h>
 int main()
 {
