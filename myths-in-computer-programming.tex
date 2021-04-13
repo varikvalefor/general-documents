@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{parskip}
+\usepackage{cleveref}
+\newtheorem{thm}{Theorem}
+
+\begin{document}
+	\section{(U) Definitions}
+		$\mathbb L$ denotes the set of all programming languages.
+
+		For all $l \in \mathbb L$, $p(l)$ denotes the set of all computer
+		programs which are written in $l$.
+
+		$\mathit{ZZ}$ denotes the class of all sets.
+
+		For all classes $G$, for all objects $x$, $G(x)$ iff $x$ belongs to
+		$G$.
+	\section{(U) Cross-Platform Stuff}
+		\subsection{(U) Haskell}
+			Let $C$ denote the set of all cross-platform computer programs.
+
+			Let $h$ denote the Haskell programming language.
+
+			$G$ denotes program 322, as contained in \cref{subsection:p322}.
+			\begin{thm}
+				$p(h) - C \neq \left\{\right\}$.
+			\end{thm}
+			\begin{proof}
+				${}$
+
+				For all computer programs $k$, $k \notin C$ if there exist
+				operating systems $a$ and $b$ such that $k$ runs on $a$ and
+				$k$ does not run on $b$.
+
+				\[
+					\forall \left\{x,y\right\},\ 
+					\mathit{ZZ}(x) \land \mathit{ZZ}(y)\implies 
+					\left(x - y \neq \left\{\right\} \iff
+					\exists k : k \in x - y\right).
+				\]
+				\[
+					\mathit{ZZ}\big(p(h)\big) \land \mathit{ZZ}(C).
+				\]
+				\[
+					G \in p(h) - C.
+				\]
+				\[
+					\therefore p(h) -  \neq \left\{\right\}.
+				\]
+			\end{proof}
+	\section{(U) Programs}
+		\subsection{(U) 322}\label{subsection:p322}
+			\begin{lstlisting}
+import System.Environment;
+
+main :: IO ();
+main = getEnvironment >>= putStrLn . thePWD
+  where thePWD = (!!0) . filter ((== "PWD") . fst);
+			\end{lstlisting}
+\end{document}
