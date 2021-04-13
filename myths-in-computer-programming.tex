@@ -26,7 +26,7 @@
 
 			$G$ denotes program 322, as contained in \cref{subsection:p322}.
 			\begin{thm}
-				$p(h) - C \neq \left\{\right\}$.
+				$G \notin C$.
 			\end{thm}
 			\begin{proof}
 				${}$
@@ -35,6 +35,41 @@
 				operating systems $a$ and $b$ such that $k$ runs on $a$ and
 				$k$ does not run on $b$.
 
+				$G$ runs on OpenBSD, and $G$ does not run on Microsoft Windows.
+
+				\[
+					\therefore G \notin C.\qedhere
+				\]
+			\end{proof}
+			\begin{thm}
+				$G \in p(h) - C$.
+			\end{thm}
+			\begin{proof}
+				\[
+					\forall \left\{a,b,c\right\},\ 
+					\mathit{ZZ}(a) \land \mathit{ZZ}(b) \land
+					c \in a \land c \notin b \iff c \in a - b.
+				\]
+				\[
+					\mathit{ZZ}\big(p(h)\big).
+				\]
+				\[
+					\mathit{ZZ}(C).
+				\]
+				\[
+					G \in p(h).
+				\]
+				\[
+					G \notin C.
+				\]
+				\[
+					\therefore G \in p(h) - C.\qedhere
+				\]
+			\end{proof}
+			\begin{thm}
+				$p(h) - C \neq \left\{\right\}$.
+			\end{thm}
+			\begin{proof}
 				\[
 					\forall x,\ 
 					\mathit{ZZ}(x) \implies 
