@@ -1,0 +1,26 @@
+\documentclass{scrartcl}
+\usepackage{tikz}
+\usepackage{parskip}
+\usetikzlibrary{positioning, calc}
+\newcommand{\quoted}[2]
+{
+	\begin{center}
+	\begin{tikzpicture}[node distance=0cm and 0cm]
+		\node at (0.25,3) [below right, align=justify, text width=0.66\textwidth] (Q) {#1};
+		\node [right, align=right, text width=0.66\textwidth, below=of Q, opacity=0.75] {\textit{\textsc{#2}}};
+		\node at (0,2.35) [opacity=0.25] {\fontsize{45pt}{45pt}\selectfont \textbf{``}};
+	\end{tikzpicture}
+	\end{center}
+}
+\begin{document}
+	\quoted{Stop making excuses for computer programmers who would best serve as lubrication for garbage disposals.}{---Varik Valefor}
+
+	%The author finds that \textsc{MC 900 ft.\ Jesus} may have not said it best:
+	${}$
+
+	\quoted{\textsc{Damn}, I hate this job.  To work in this dump, you've got to be a snob.  Everybody gets on my nerves in this place.  I think I'll take the afternoon off from the rat race.  An exciting career don't amount to much but a pain in the rear.  I bust my ass all day for a dollar, and then I come home and listen to the kids holler.}{---MC 900 ft.\ Jesus}
+
+	${}$
+
+	\quoted{Don't quote me, boy, `cause I ain't said shit.}{---EAZY-E}
+\end{document}
