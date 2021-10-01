@@ -11,7 +11,7 @@ VARIK's movements are rather stilted.  Because the depicted character is a repre
 In any case, the criticism is appreciated.
 
 > Side note, as an avid user of Spacemacs, even I have trouble reading a wall of text. Consider refining future posts with more newlines, or in the case of copyrights, use a SPDX identifier so someone doesn't need to go hunting for it.
-Newlines are present; VARIK greatly dislikes long paragraphs.  The plaintext version of this reply is visible at [LINK], although some line breaks are actually ADDED to the Reddit response for the sake of separating paragraphs and replies to such paragraphs.
+Newlines are present; VARIK greatly dislikes long paragraphs.  The plaintext version of this reply is visible at http://github.com/varikvalefor/general-documents/blob/main/throwaway/AXLZzyay, although some line breaks are actually ADDED to the Reddit response for the sake of separating paragraphs and replies to such paragraphs.
 Spacemacs or Reddit must delete some newlines; the lines of the original text are reasonably short.
 Because the licence under which this thing is released is currently being decided, no SPDX identifier is placed.  VARIK leans toward using the Unlicense but wishes to make this move only after the drawing is certainly released into the public domain.
 Regarding the choice of text editor: Using ed(1) is always an option.\*  Just be sure to RTFM.  http://man.openbsd.org/ed.1
